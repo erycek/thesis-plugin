@@ -90,9 +90,8 @@ fun checkForSecurityIssuesInPackages(fileContent: String, file: PsiFile): List<E
                     val advisory = advisories.getJSONObject(key)
                     val title = advisory.getString("title")
                     val moduleName = advisory.getString("module_name")
-                    // find line of the module name from previous fileContent
                     output.add(
-                        ErrorDto(Severity.ERROR, "PACKAGE: $title", "Security issue in: $moduleName", file, 0)
+                        ErrorDto(Severity.ERROR, title, "PACKAGE: $moduleName", file, 0)
                     )
                 }
 
