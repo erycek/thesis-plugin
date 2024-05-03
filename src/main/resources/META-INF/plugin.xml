@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>org.thesis.thesis-plugin</id>
     <name>Security Scanner</name>
-    <vendor email="erik.novysedlak@student.tuke.sk" url="https://www.yourcompany.com">TUKE</vendor>
+    <vendor email="erik.novysedlak@student.tuke.sk" url="https://fei.tuke.sk">TUKE</vendor>
     <description><![CDATA[
         Scan your code for security threats!<br>
         You can scan your code for security threats and get a report of the results.<br>
